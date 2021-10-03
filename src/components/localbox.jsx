@@ -1,23 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function LocalBox() {
+function LocalBox () {
+    const city = ["Seoul", "Busan", "Daegu", "Incheon", "Gwangju", "Daejeon", 
+    "Ulsan", "Sejong", "Gyeonggi", "Gangwon", "Jeju", 
+    "Chungcheongbuk", "Chungcheongnam", "Jeollabuk", "Jeollanam", "Gyeongsangbuk",
+    "Gyeongsangnam"];
+
 
     return (
-        <LocalContainer>
-            <localName>서울</localName>
-        </LocalContainer>
+        <>
+        </>
     );
 }
-const LocalContainer = styled.div`
-    width: 50vw;
-    background-color: #0078FF;
-    font-size: 50px;
-    margin: 0 auto;
-    text-align: center;
-`;
-const localName = styled.p`
-    
-`;
 
 export default LocalBox;

@@ -1,14 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import Map from './map';
 
-function WeatherBox () {
+function Map () {
+
+    const imgUrl = "./images/kmap.png";
 
     return (
         <>
-            <Map/>
+            <img src={imgUrl}/>
         </>
     );
 }
 
-export default WeatherBox;
+export default Map;
+
+

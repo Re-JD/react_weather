@@ -1,25 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from '../components/header';
 import WeatherBox from '../components/weatherbox';
 
-function WeatherContainer() {
+function WeatherContainer () {
 
-    return (
-        <TotalWeatherContainer>
+    return(
+        <>
+            <Header/>
             <WeatherBox/>
-            <WeatherBox/>
-            <WeatherBox/>
-            <WeatherBox/>
-            <WeatherBox/>
-            <WeatherBox/>
-            <WeatherBox/>
-        </TotalWeatherContainer>
-    );
+        </>
+    )
 }
 
-const TotalWeatherContainer = styled.div`
-    display: flex;
-    width: 100vw;
-    margin-top: 20px;
-`;
 export default WeatherContainer;
