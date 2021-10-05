@@ -10,8 +10,17 @@ function LocalBox () {
 
     return (
         <>
+        <Kmap_Seoul/>
         </>
     );
 }
+
+const Kmap_Seoul = styled.div`
+    top : 17%;
+    left : 37%;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+`;
 
 export default LocalBox;
