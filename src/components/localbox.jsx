@@ -9,18 +9,21 @@ function LocalBox () {
 
 
     return (
-        <>
-        <Kmap_Seoul/>
-        </>
+        <div>
+            <Kmap_Seoul/>
+        </div>
     );
 }
 
 const Kmap_Seoul = styled.div`
+    position: absoulte;
     top : 17%;
     left : 37%;
-    background-color: gray;
+    border: black 2px solid;
     width: 50px;
     height: 50px;
+    padding: 0;
+    margin: 0;
 `;
 
 export default LocalBox;
